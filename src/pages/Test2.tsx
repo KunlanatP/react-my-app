@@ -76,12 +76,12 @@ function Test2() {
       sorter: (a: any, b: any) => a.title.localeCompare(b.title),
     },
     {
-      title: t`txt_firstname`,
+      title: t`txt_first_name`,
       dataIndex: 'firstname',
       sorter: (a: any, b: any) => a.firstname.localeCompare(b.firstname),
     },
     {
-      title: t`txt_lastname`,
+      title: t`txt_last_name`,
       dataIndex: 'lastname',
       sorter: (a: any, b: any) => a.lastname.localeCompare(b.lastname),
     },
