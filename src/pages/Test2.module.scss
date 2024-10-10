@@ -1,0 +1,20 @@
+.containerPanel {
+    width: 100vh;
+    background: white;
+    border-color: #32323232;
+    box-shadow: 0 2px 4px 0 rgba(75, 75, 75, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.063);
+}
+
+.tablePanel {
+    margin-top: 30px;
+    overflow-y: auto;
+}
+
+.container {
+    margin-bottom: 60px;
+}
+
+.backButtonPanel {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}

@@ -1,0 +1,17 @@
+.appContainer {
+  background: linear-gradient(90deg in oklab, #6eda78, #ffa200);
+  min-height: 100vh;
+  padding-top: 40px;
+}
+
+.headerStyle {
+  background-color: #ff000000;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

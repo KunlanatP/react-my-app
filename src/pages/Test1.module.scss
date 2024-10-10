@@ -1,0 +1,20 @@
+.test1Container {
+    background: transparent;
+    min-height: 60vh;
+    padding-top: 40px;
+}
+
+.layoutHeader {
+    background-color: transparent;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.layoutContent {
+    background-color: transparent;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,68 @@
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #ffa200;
+        border-color: #ffa200;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background: grey;
+    border-radius: 50%
+}
+
+.oval {
+    width: 200px;
+    height: 100px;
+    background: grey;
+    border-radius: 100px / 50px;
+}
+
+.trapezoid {
+    border-bottom: 100px solid grey;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 100px;
+}
+
+.parallelogram {
+    width: 150px;
+    height: 100px;
+    transform: skew(20deg);
+    background: grey;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background: grey;
+}
+
+
+.rectangle {
+    width: 200px;
+    height: 100px;
+    background: grey;
+}
+
+.flipped {
+    transform: rotateY(180deg);
+}
+
+.rowPaddingLeft {
+    padding-left: 150px;
+    margin-bottom: 20px;
+}
+
+.rowPaddingRight {
+    padding-right: 150px;
+    margin-bottom: 20px;
+}
